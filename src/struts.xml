@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<!-- user -->
+	<package name="shijing.user" extends="struts-default">
+		<action name="register" class="regAction">
+			<result name="success">/RegisterComplete.jsp</result>
+			<result name="error">/Fail.jsp</result>
+		</action>
+		<action name="login" class="loginAction">
+			<result name="success">/mgj.jsp</result>
+			<result name="error">/Fail.jsp</result>
+		</action>
+		<action name="userOper" class="UserOperateAction">
+			<result name="success">/personal.jsp</result>
+		</action>
+
+	</package>
+	<!-- goods -->
+
+	<package name="shijing.goods" extends="struts-default" >
+		<action name="goods/" class="goodsAction">
+			<result name="success">/goods_clothes.jsp</result>
+			<result name="error">/Fail.jsp</result>
+		</action>
+
+	</package>
+</struts>

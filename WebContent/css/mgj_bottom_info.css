@@ -1,0 +1,82 @@
+.foot{
+	background:rgba(0,0,0,0) url("../img/foot_white_24x160.png") repeat-x scroll center top;
+	font-size: 12px;
+	height:260px;
+	margin-top: 90px;
+	overflow: hidden;
+}
+.foot .foot_wrap{
+	padding: 30px 0 0 1px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+.foot .foot_info{
+	overflow: hidden;
+	width: 246px;
+	clear: both;
+}
+.foot_info .info_logo{
+	background: rgba(0,0,0,0) url("../img/mgj_logo_143x35.png") no-repeat;
+	height: 35px;
+	display:block;
+}
+.foot a{
+	color:#999;
+	
+	text-decoration: none;}
+.foot_info .info_text{
+	display:block;
+	margin-top: 2px;
+	overflow: hidden;
+}
+.info_text p{
+	color:#999;
+	height:16px;
+	line-height:16px;
+	margin-top: 5px;
+	
+}
+.foot_link{
+	float:left;
+	margin-left: 150px;
+	margin-top: -150px;
+}
+.foot_link dl{
+	float:left;
+	margin-left: 100px;
+}
+.foot_link dt{
+	color:#333;
+	font-weight: 700;
+	padding-bottom: 3px;
+	padding-left: 50px;
+}
+.foot_link dd{
+	margin-top: 8px;
+	color: #999;
+}
+.foot_link dt,.foot_link dd{
+	height:14px;
+}
+.link_safe dd{
+	height:28px;
+	line-height: 28px;
+	margin-left: -12px;
+	overflow: hidden;
+}
+
+.link_safe .pa{
+	background-position: -240px -50px;
+	width: 164px;
+}
+.link_safe .kx{
+	background-position: -400px -50px;
+	width: 84px;
+}
+.link_safe a{
+	background: rgba(0,0,0,0) url("../img/qwrz.png");
+    float:left;
+    height:28px;
+    vertical-align: top;
+}

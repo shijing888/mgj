@@ -1,0 +1,258 @@
+.logo_img{
+   background:rgba(0,0,0,0);
+   display:inline-block;
+   height:52px;
+   width:220px;
+}
+
+a{
+   text-decoration:none;
+   outline:medium none;
+}
+body,textarea,input{
+	font:12px/1.6 tahoma,arial,sans-serif;
+}
+
+a img{
+	vertical-align:middle;
+}
+
+.register_wrap{
+	margin:0 auto;
+	min-height:580px;
+	padding:27px 0 33px;
+	width:900px;
+}
+
+.register_wrap .content{
+	height:500px;
+	padding-top: 40px;
+}
+.lg_banner{
+	display:inline;
+	float:left;
+	padding:20px 0 0 40px;
+	width:400px;
+}
+
+.rg_left{
+	border:1px solid #dcdcdc;
+	display:inline;
+	float:right;
+	color:#333;
+	padding:0 0 30px 38px;
+	width:322px;
+}
+
+ h3{
+	color:#333;
+	font-size:15px;
+	line-height:42px;
+}
+.regist h3{
+	border-bottom: 1px solid #ccc;
+	margin-left: -38px;
+	padding-left: 38px;
+}
+.mod_box{
+	margin-top:20px;
+}
+.country_select{
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0 
+	border:1px solid #c4c4c4;
+	color:#333;
+	float:left;
+	font-size:14px;
+	height:30px;
+	line-height: 1.5;
+	margin-right: 18px;
+	margin-bottom:5px;
+	padding: 4px 35px 4px 10px;
+	width:104px;
+}
+.short_text{
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0 
+	float:left;
+	height:28px;
+	padding: 0 6px;
+	margin-bottom:5px;
+	width:155px;
+}
+.checkword .getCode ,.code{
+	background:#f55 none repeat scroll 0 0;
+	color: #fff;
+	float:right;
+	margin-right:30px;
+	height:30px;
+	line-heiht:30px;
+	width:105px;
+	font-size: 14px;
+	text-align: center;
+	
+}
+.rg_password .text{
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0 ;
+	height:28px;
+	padding: 0 6px;
+	width:270px;
+}
+input,textarea a{
+	font-size:small;
+	margin: 0;
+	vertical-align: baseline;
+	border: 1px solid #cfcfcf;
+}
+.mb{
+	margin-bottom:15px;
+	position: relative;
+	border-color:#cfcfcf;
+	color:#999;
+}
+.rg_submit .submit{
+	background: #ff4066 none repeat scroll 0 0;
+	border:medium none;
+	color: #fff;
+	cursor:pointer;
+	display: inline;
+	height:30px;
+	width:285px;
+}
+.rg_login{
+	color:#666;
+	float: right;
+	margin-right: 40px;
+}
+
+
+.login_foot{
+	background:rgba(0,0,0,0) repeat scroll 0 0;
+	margin-top:50px;  
+}
+.login_foot_con{
+	margin:0 auto;
+	padding-top: 25px;
+	width:900px;
+	color:#333;
+	font-size:14px;
+	margin-bottom: 5px;
+}
+.fr{
+	display:inline;
+	float:right;
+}
+.qr_code_box .qr_code{
+	background: rgba(0, 0, 0, 0)  no-repeat scroll 0 0;
+	display: block;
+	height: 76px;
+	width:180px;
+}
+
+.link_list li{
+	display:inline;
+	float: left;
+	margin-bottom: 30px;
+	width:130px;
+}
+
+.link_list li a,.link_list li p{
+	color:#666;
+	display: block;
+	line-height: 24px;
+}
+p{
+	margin:0;
+	padding: 0;
+	outline:0 none;
+	vertical-align: baseline;
+}
+.copyright{
+	border-top:1px dashed #dcdcdc;
+	clear:both;
+	color:#999;
+	line-height:40px;
+	margin:0;
+	padding-top:0;
+	text-align: center;
+}
+
+.content{
+	padding-top:40px;
+	height:500px;
+}
+hr{
+	border:none;
+	border-top:1px solid #c4c4c4;
+	height:1px;
+	filter:alpha(opacity=20);
+	opacity:0.8;
+}
+.success{
+	width:300px;
+	margin:80px auto;
+}
+.success .top{
+	margin-bottom:40px;
+}
+i{
+	background: url(../img/duihao.png);
+	margin-left:80px;
+	float:left;
+	width:42px;
+	height:42px;
+	display:block;
+}
+.spComplete{
+	margin-left:20px;
+	line-height:42px;
+	font-size:14px;
+	color:#7a7a7a;
+	display:block;
+	float:left;
+}
+.success p{
+	text-align: center;
+	color:#888;
+	font-size: 14px;
+	display:block;
+	float: left;
+	margin-top: 40px;
+}
+
+.success .nick{
+	width:280px;
+	height:25px;
+	margin-left:10px;
+	margin-top:20px;
+	border:1px solid #aaa;
+	margin-bottom: 15px;
+}
+
+.errorTip{
+	display:none;
+	font-size: 12px;
+	color:red;
+}
+.btn{
+	margin-top: 20px;
+}
+.success .sure{
+	display:block;
+	width:120px;
+	text-align: center;
+	background-color: #ff4066;
+	border: 1px solid #ff4066;
+	color:#fff;
+	float:left;
+	height:25px;
+	margin-left:20px;
+}
+.success .over{
+	display:block;
+	width:120px;
+	text-align: center;
+	border: 1px solid #888;
+	color:#333;
+	float:left;
+	height:25px;
+	margin-left:20px;
+}

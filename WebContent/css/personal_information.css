@@ -1,0 +1,124 @@
+.mu_content-wrap{
+	overflow:hidden;
+	padding-bottom:20px;
+	width:808px;
+	
+}
+#setting_box{
+	font-size: 14px;
+	margin-left:50px;
+	padding-top: 35px;
+	width:685px; 
+	margin-left: 250px;
+	margin-top: -1040px;
+}
+.sb1{
+	display: inline;
+	float: left;
+}
+.setting_title{
+	background-color: #f9f9f9;
+	height:30px;
+	margin-bottom: 14px;
+	padding: 0 10px 0 20px;
+	width:649px;
+}
+.setting_title span{
+	color: #ff6aa2;
+	font-size: 14px;
+	font-weight: 700;
+	height:30px;
+	line-height:30px;
+}
+#setting_form{
+	margin-top:20px;
+	position:relative;
+}
+#setting_form dl{
+	margin-bottom: 12px;
+}
+#setting_form dd{
+	color:#666;
+	float:left;
+	line-height: 26px;
+	text-align: right;
+	vertical-align: middle;
+	width:105px;
+}
+#setting_form dt{
+	color:#666;
+	font-size:12px;
+	margin-bottom: 12px;
+}
+.setting_basic .unick input{
+	border: 1px solid #cfcfcf;
+	color:#666;
+	height:24px;
+	line-height: 24px;
+	padding-left: 5px;
+	width:255px;
+	margin-bottom: 12px;
+}
+input,textarea{
+	font-size:100%;
+	margin:0;
+	outline: medium none;
+	vertical-align: baseline;
+}
+.setting_basic .pstyle{
+	width:365px;
+}
+.setting_basic textarea{
+	border:1px solid #cfcfcf;
+	color:#666;
+	height:120px;
+	padding:5px;
+	width:466px;
+}
+.r3{
+	border-radius:3px;
+}
+.setting_basic .gray_text{
+	border:1px solid #cfcfcf;
+	font-size: 12px;
+	height:24px;
+	line-height:24px;
+	margin-right: 5px;
+	padding: 0 5px;
+}
+.fashion_list{
+	background-color:#fff;
+	border: 1px solid #cfcfcf;
+	border-radius:3px;
+	display: none;
+	left: 105px;
+	overflow: hidden;
+	padding: 10px;
+	position: absolute;
+	top:25px;
+	width:355px; 
+}
+.fashion_list .tag{
+	float: left;
+	width:330px;
+}
+.fashion_list .tag a{
+	padding: 2px 4px;
+	color: #ff7878;
+}
+.fashion_list .close{
+	float:right;
+	heght:11px;
+	margin: 5px 5px 0 0;
+	width:11px;
+}
+.green_button{
+	background: rgba(0,0,0,0) url("../img/yellowBackground.png") no-repeat scroll 0 0;
+	font-size: 14px;
+	font-weight: 700;
+	color:#fff;
+	height: 29px;
+	line-height: 29px;
+	text-align: center;
+	width: 103px;
+}

@@ -1,0 +1,79 @@
+.mgj_rightbar{
+	background:#202020 ;
+	color:#fff;
+	height:100%;
+	position:fixed;
+	top:0;
+	width:30px;
+	font-size:14px;
+	right:0;
+	z-index: 999;
+}
+.mgj_rightbar #mgj_rightbar_blankdiv{
+	height:10%;
+	position:relative;
+	right:0;
+	top:0;
+	width:30px;
+}
+.mgj_rightbar .sidebar_item{
+	margin-top:-3px;
+	padding:4px 2px 0;
+	position:relative;
+	text-align: center;
+}
+.mgj_rightbar .sidebar_item .side_icon{
+	background-image:url("../img/cart.png");
+	display: block;
+	height: 30px;
+	width: 30px; 
+}
+
+.mgj_rightbar .mgj_myavatar img{
+	border:1px solid #fff;
+	border-radius:10px;
+	margin-bottom: 8px;
+	
+	
+}
+.mgj_rightbar .mgj_mycart .side_icon{
+	background-position: -5px 0;
+	
+}
+.mgj_rightbar .mgj_mycoupon .side_icon{
+	background-position: -5px -60px;
+	
+}
+.mgj_rightbar .mgj_mywallet .side_icon{
+	background-position: -5px -90px;
+	
+}
+.mgj_rightbar .mgj_browserlog .side_icon{
+	background-position: -5px -120px;
+	
+}
+.mgj_rightbar .mgj_back2top .side_icon{
+	background-position: -5px -150px;
+	
+}
+
+.mgj_rightbar .sidebar_item a .side_icon{
+	border-top: 1px solid #fff;
+	
+}
+.mgj_rightbar .sidebar_item a{
+	boder-bottom:1px solid rgba(221,221,221,0.6);
+	color:#fff;
+	display: block;
+	line-height:15px;
+	padding-bottom: 12px;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+.mgj_rightbar .sidebottom{
+	bottom:10px;
+	position: absolute;
+	width:30px;
+}

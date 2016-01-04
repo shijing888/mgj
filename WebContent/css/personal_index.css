@@ -1,0 +1,54 @@
+.mu_nav-wrap{
+	background: #f9f9f9 no-repeat;
+	border-right: 1px solid #f1f1f1;
+	float: left;
+	width:148px;
+}
+.mu_nav_info{
+	margin-left: -820px;
+}
+.mu_nav_info_avatar{
+	height:100px;
+	margin: 0 auto;
+	padding:5px;
+	position: relative;
+	width:100px;
+}
+.mu_nav_info_avatar_mk{
+	height:110px;
+	position: absolute;
+	width: 110px;
+}
+.mu_nav_info_avatar img{
+	border-radius:50%;
+	vertical-align: middle; 
+}
+.mu_nav_info_uname{
+	color:#333;
+	font:14px;
+	padding:0 10px;
+	text-align: center;
+}
+.mu_nav{
+     padding-bottom: 10px;
+}
+.mu_nav dt{
+	color:#464646;
+	width:110px;
+	font:400 18px/38px "Microsoft YaHei";
+	margin: 0 10px;
+	padding-left: 14px;
+	padding-top: 11px;
+	border-top: 1px dotted #d3d7d4;
+	overflow: hidden;
+}
+.mu_nav dd{
+	font:400 12px/28px helvetica,tahoma,arial,sans-serif;
+}
+.mu_nav dd a{
+	color:#666;
+	display: block;
+}
+a{
+	text-decoration: none;
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="com.shijing.goods.beans">
+	<class name="Goods" table="goods">
+		<id name="goodsId" column="goodsId">
+			<generator class="native"></generator>
+		</id>
+		<property name="goodsMainClassifyId" column="goodsMainClassifyId"
+			type="java.lang.Integer" not-null="true" length="8" />
+		<property name="goodsSubClassifyId" column="goodsSubClassifyId"
+			type="java.lang.Integer" not-null="false" length="8" />
+		<property name="goodsBrand" column="goodsBrand" type="java.lang.String"
+			not-null="false" length="64" />
+		<property name="goodsImgUrl" column="goodsImgUrl" type="java.lang.String"
+			not-null="false" length="128" />
+		<property name="goodsDescription" column="goodsDescription"
+			type="java.lang.String" not-null="false" length="256" />
+		<property name="goodsPrice" column="goodsPrice" type="java.lang.Double"
+			not-null="false" length="16" />
+			<property name="goodsSupportNum" column="goodsSupportNum" type="java.lang.Integer"
+			not-null="false" length="8" />
+		<property name="commentId" column="commentId" type="java.lang.Integer"
+			not-null="false" length="8" />
+	</class>
+</hibernate-mapping>
